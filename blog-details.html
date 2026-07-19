@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Article | 105X Advisory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="reading-progress" id="progress-bar"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">105X Advisory</a>
+            <div class="nav-links">
+                <a href="blog.html">← Back to Insights</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="article-header reveal">
+            <span class="text-accent" style="text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Valuation Frameworks</span>
+            <h1 style="font-size: 3.5rem; margin: 1.5rem 0;">How to Read an Annual Report Like an Institutional Investor</h1>
+            <div class="article-meta">
+                <span>By 105X Advisory</span>
+                <span>Oct 14, 2026</span>
+                <span>12 Min Read</span>
+            </div>
+        </header>
+
+        <div class="article-cover reveal"></div>
+
+        <article class="article-content reveal">
+            <p>The majority of retail investors read annual reports to find reasons to buy a stock. Institutional investors read them to find reasons <em>not</em> to. This inversion in thinking is the first step toward disciplined capital allocation.</p>
+            
+            <h2>1. Start with the Auditor's Report, Not the Chairman's Letter</h2>
+            <p>The Chairman's letter is a marketing document. While it provides insight into management's vision and capital allocation strategy, it is fundamentally designed to present the business in the best possible light. Before you absorb the narrative, you must verify the numbers.</p>
+            
+            <blockquote>"Markets reward patience, discipline, and thoughtful analysis—not constant predictions based on narrative alone."</blockquote>
+            
+            <h2>2. Tracing Cash Flow vs. Reported Profit</h2>
+            <p>Profit is an accounting opinion; cash is a biological fact. A critical exercise in reading financial statements is bridging the gap between Operating Profit (EBITDA) and Cash Flow from Operations (CFO). If a company is reporting record profits but cash flow is consistently negative, it requires immediate scrutiny.</p>
+
+            <div style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem; border-radius: var(--radius-sm); margin: 3rem 0;">
+                <h3 style="margin-top: 0; color: var(--accent);">Key Takeaways</h3>
+                <ul style="list-style: disc; padding-left: 1.5rem; color: var(--text-secondary);">
+                    <li style="margin-bottom: 0.5rem;">Always verify earnings quality via CFO.</li>
+                    <li style="margin-bottom: 0.5rem;">Track related-party transactions in the footnotes.</li>
+                    <li>Evaluate capital allocation (Dividends vs. Buybacks vs. Reinvestment).</li>
+                </ul>
+            </div>
+        </article>
+
+        <div class="newsletter-section reveal" style="max-width: 800px; margin: 6rem auto;">
+            <h3 style="font-size: 2rem; margin-bottom: 1rem;">Did you find this valuable?</h3>
+            <p class="text-muted">Get one page of highly concentrated equity research every week.</p>
+            <form class="newsletter-form" style="margin-top: 1.5rem;" onsubmit="event.preventDefault();">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

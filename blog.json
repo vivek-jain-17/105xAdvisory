@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "How to Read an Annual Report Like an Investor",
+        "category": "Investing",
+        "author": "105X Advisory",
+        "date": "Oct 14, 2026",
+        "readingTime": "12 Min Read",
+        "excerpt": "Retail investors read to find reasons to buy. Institutions read to find reasons not to. A definitive guide to parsing financial filings."
+    },
+    {
+        "id": 2,
+        "title": "Cash Flow vs Profit: The Ultimate Truth",
+        "category": "Finance",
+        "author": "105X Advisory",
+        "date": "Oct 07, 2026",
+        "readingTime": "8 Min Read",
+        "excerpt": "Profit is an accounting opinion; cash is a biological fact. How to bridge the gap between EBITDA and actual operating cash flow."
+    },
+    {
+        "id": 3,
+        "title": "The Management Quality Checklist",
+        "category": "Business",
+        "author": "105X Advisory",
+        "date": "Sep 28, 2026",
+        "readingTime": "15 Min Read",
+        "excerpt": "Capital allocation is the true test of management. Evaluating dividends, buybacks, and internal reinvestment rates."
+    },
+    {
+        "id": 4,
+        "title": "Understanding Intrinsic Value & Moats",
+        "category": "Valuation",
+        "author": "105X Advisory",
+        "date": "Sep 21, 2026",
+        "readingTime": "10 Min Read",
+        "excerpt": "A deep dive into pricing power, switching costs, and network effects that protect a business's long-term profitability."
+    },
+    {
+        "id": 5,
+        "title": "Common Retail Investing Mistakes",
+        "category": "Investing",
+        "author": "105X Advisory",
+        "date": "Sep 14, 2026",
+        "readingTime": "7 Min Read",
+        "excerpt": "From chasing low P/E ratios to ignoring cyclicality. A breakdown of cognitive biases that destroy portfolio returns."
+    },
+    {
+        "id": 6,
+        "title": "Valuation Beyond the PE Ratio",
+        "category": "Valuation",
+        "author": "105X Advisory",
+        "date": "Sep 05, 2026",
+        "readingTime": "11 Min Read",
+        "excerpt": "Why relying solely on Price-to-Earnings is dangerous, and how to utilize EV/EBITDA and Free Cash Flow Yield."
+    }
+]

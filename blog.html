@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights & Articles | 105X Advisory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">105X Advisory</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="index.html#newsletter" class="btn btn-primary" style="padding: 0.6rem 1.5rem;">Subscribe</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="blog-hero container reveal">
+        <h1 style="font-size: 4rem; margin-bottom: 1rem;">Insights & Articles</h1>
+        <p class="text-muted" style="font-size: 1.25rem; max-width: 700px; margin: 0 auto;">Perspectives on investing, valuation, business quality, market psychology, and long-term wealth creation.</p>
+        
+        <div class="search-bar">
+            <i data-lucide="search"></i>
+            <input type="text" id="blog-search" placeholder="Search articles, frameworks, and insights...">
+        </div>
+
+        <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">Latest</button>
+            <button class="filter-btn" data-filter="Investing">Investing</button>
+            <button class="filter-btn" data-filter="Valuation">Valuation</button>
+            <button class="filter-btn" data-filter="Business">Business</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="blog-grid" id="blog-container">
+            <p class="text-muted text-center" style="grid-column: 1/-1;">Loading institutional insights...</p>
+        </div>
+    </main>
+
+    <footer class="footer container">
+        <div class="footer-bottom">
+            <p>&copy; 2026 105X Advisory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
