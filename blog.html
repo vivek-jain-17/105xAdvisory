@@ -1,53 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insights & Articles | 105X Advisory</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
-</head>
-<body>
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">105X Advisory</a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="blog.html" class="active">Blog</a>
-                <a href="index.html#newsletter" class="btn btn-primary" style="padding: 0.6rem 1.5rem;">Subscribe</a>
-            </div>
-        </div>
-    </nav>
-
-    <header class="blog-hero container reveal">
-        <h1 style="font-size: 4rem; margin-bottom: 1rem;">Insights & Articles</h1>
-        <p class="text-muted" style="font-size: 1.25rem; max-width: 700px; margin: 0 auto;">Perspectives on investing, valuation, business quality, market psychology, and long-term wealth creation.</p>
-        
-        <div class="search-bar">
-            <i data-lucide="search"></i>
-            <input type="text" id="blog-search" placeholder="Search articles, frameworks, and insights...">
-        </div>
-
-        <div class="category-filters">
-            <button class="filter-btn active" data-filter="all">Latest</button>
-            <button class="filter-btn" data-filter="Investing">Investing</button>
-            <button class="filter-btn" data-filter="Valuation">Valuation</button>
-            <button class="filter-btn" data-filter="Business">Business</button>
-        </div>
-    </header>
-
-    <main class="container">
-        <div class="blog-grid" id="blog-container">
-            <p class="text-muted text-center" style="grid-column: 1/-1;">Loading institutional insights...</p>
-        </div>
-    </main>
-
-    <footer class="footer container">
-        <div class="footer-bottom">
-            <p>&copy; 2026 105X Advisory. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#080a08"><title>Insights — 105X Advisory</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><script src="https://unpkg.com/lucide@latest"></script></head>
+<body><header class="site-header inner-header" id="header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark"><span>105</span><b>X</b><i></i></span><span class="brand-caption">ADVISORY<span>RESEARCH OVER NOISE</span></span></a><button class="menu-toggle" id="menu-toggle" aria-label="Open navigation"><i data-lucide="menu"></i></button><nav class="nav-links" id="nav-links"><a href="index.html#approach">Our Approach</a><a href="index.html#services">Expertise</a><a class="active" href="blog.html">Insights</a><a class="nav-cta" href="index.html#contact">Get in touch <i data-lucide="arrow-up-right"></i></a></nav></div></header>
+<main><section class="blog-hero container"><div class="eyebrow reveal"><span class="eyebrow-line"></span> THE 105X JOURNAL</div><h1 class="reveal">Ideas worth<br><em>looking into.</em></h1><p class="blog-intro reveal">Explorations of business, valuation and decision-making. Clear thinking begins with asking better questions.</p><div class="blog-tools reveal"><label class="search-field"><i data-lucide="search"></i><input id="blog-search" type="search" placeholder="Search the journal..." aria-label="Search articles"></label><div class="category-filters" id="category-filters"><button class="filter-btn active" data-filter="All">All notes</button><button class="filter-btn" data-filter="Research">Research</button><button class="filter-btn" data-filter="Valuation">Valuation</button><button class="filter-btn" data-filter="Strategy">Strategy</button></div></div></section>
+<section class="container blog-content"><div class="blog-results-label"><span id="result-count">LATEST NOTES</span><span>INDEPENDENT PERSPECTIVE / 105X</span></div><div class="blog-grid" id="blog-container"></div><div class="empty-state" id="empty-state" hidden>No notes match your search. Try a different term.</div></section><section class="container blog-cta"><div><span class="eyebrow">STAY CURIOUS</span><h2>Make space for<br><em>better questions.</em></h2></div><a class="button button-green" href="index.html#contact">Talk to 105X <i data-lucide="arrow-up-right"></i></a></section></main>
+<footer class="site-footer"><div class="container"><div class="footer-main"><a class="brand footer-brand" href="index.html"><span class="brand-mark"><span>105</span><b>X</b><i></i></span><span class="brand-caption">ADVISORY<span>RESEARCH OVER NOISE</span></span></a><p>Independent thinking for decisions that matter.</p></div><div class="footer-bottom"><span>© <span id="year"></span> 105X Advisory.</span><span>DEMONSTRATION CONTENT — SUBJECT TO REVIEW</span><a href="#header">Back to top ↑</a></div></div></footer><script src="script.js"></script></body></html>

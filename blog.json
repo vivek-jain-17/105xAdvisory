@@ -1,56 +1,8 @@
 [
-    {
-        "id": 1,
-        "title": "How to Read an Annual Report Like an Investor",
-        "category": "Investing",
-        "author": "105X Advisory",
-        "date": "Oct 14, 2026",
-        "readingTime": "12 Min Read",
-        "excerpt": "Retail investors read to find reasons to buy. Institutions read to find reasons not to. A definitive guide to parsing financial filings."
-    },
-    {
-        "id": 2,
-        "title": "Cash Flow vs Profit: The Ultimate Truth",
-        "category": "Finance",
-        "author": "105X Advisory",
-        "date": "Oct 07, 2026",
-        "readingTime": "8 Min Read",
-        "excerpt": "Profit is an accounting opinion; cash is a biological fact. How to bridge the gap between EBITDA and actual operating cash flow."
-    },
-    {
-        "id": 3,
-        "title": "The Management Quality Checklist",
-        "category": "Business",
-        "author": "105X Advisory",
-        "date": "Sep 28, 2026",
-        "readingTime": "15 Min Read",
-        "excerpt": "Capital allocation is the true test of management. Evaluating dividends, buybacks, and internal reinvestment rates."
-    },
-    {
-        "id": 4,
-        "title": "Understanding Intrinsic Value & Moats",
-        "category": "Valuation",
-        "author": "105X Advisory",
-        "date": "Sep 21, 2026",
-        "readingTime": "10 Min Read",
-        "excerpt": "A deep dive into pricing power, switching costs, and network effects that protect a business's long-term profitability."
-    },
-    {
-        "id": 5,
-        "title": "Common Retail Investing Mistakes",
-        "category": "Investing",
-        "author": "105X Advisory",
-        "date": "Sep 14, 2026",
-        "readingTime": "7 Min Read",
-        "excerpt": "From chasing low P/E ratios to ignoring cyclicality. A breakdown of cognitive biases that destroy portfolio returns."
-    },
-    {
-        "id": 6,
-        "title": "Valuation Beyond the PE Ratio",
-        "category": "Valuation",
-        "author": "105X Advisory",
-        "date": "Sep 05, 2026",
-        "readingTime": "11 Min Read",
-        "excerpt": "Why relying solely on Price-to-Earnings is dangerous, and how to utilize EV/EBITDA and Free Cash Flow Yield."
-    }
+  {"id":1,"title":"Reading a business beyond its headline numbers","category":"Research","date":"Demo note","readingTime":"8 min read","excerpt":"A practical starting point for looking at financial statements with context and curiosity.","theme":"image-one","body":[{"heading":"Begin with the business","paragraph":"Numbers matter, but they become more useful when they are connected to the business that produced them. What does the company sell? Who are its customers? What makes them return? Which forces shape its costs and pricing power?"},{"heading":"Look for the relationships","paragraph":"Revenue growth, margins, working capital and cash generation tell different parts of a story. Consider how these measures move together over time, and ask what might explain the gaps between them."},{"heading":"Keep the questions open","paragraph":"A good research process does not begin by proving a conclusion. It begins by writing down what is known, what is assumed, and what evidence could change the view. This sample note is illustrative and will be replaced or approved by 105X Advisory."}]},
+  {"id":2,"title":"Value is more than a single number","category":"Valuation","date":"Demo note","readingTime":"6 min read","excerpt":"Why assumptions, uncertainty and business quality belong in the same conversation.","theme":"image-two","body":[{"heading":"Valuation is a framework","paragraph":"A valuation estimate is the output of assumptions about a business and its future. Those assumptions can be more important than the apparent precision of the final number."},{"heading":"Understand what drives the result","paragraph":"Growth, profitability, reinvestment, competitive position and risk all influence how a business may be valued. Exploring a range of scenarios can make the uncertainty more visible."},{"heading":"Separate estimate from certainty","paragraph":"A model can help organise thinking, but it cannot remove uncertainty. This illustrative article is demonstration copy and is not a valuation of any company or security."}]},
+  {"id":3,"title":"The value of having a repeatable process","category":"Strategy","date":"Demo note","readingTime":"5 min read","excerpt":"A framework for slowing down, testing assumptions and documenting a point of view.","theme":"image-three","body":[{"heading":"Create space to think","paragraph":"When information arrives quickly, a repeatable process helps make sure the important questions are not skipped. A checklist can create consistency without replacing judgement."},{"heading":"Write down the thesis","paragraph":"Documenting the reasoning behind a decision makes assumptions easier to revisit. It also helps distinguish a change in evidence from a change in mood."},{"heading":"Review what changed","paragraph":"A process should evolve as new evidence arrives. The objective is not to eliminate uncertainty, but to respond to it deliberately. This sample copy is for demonstration only."}]},
+  {"id":4,"title":"Cash flow and the quality of earnings","category":"Research","date":"Demo note","readingTime":"7 min read","excerpt":"Questions to ask when reported profitability and cash generation tell different stories.","theme":"image-four","body":[{"heading":"Profit and cash answer different questions","paragraph":"Accounting earnings help describe performance over a period, while cash flow highlights the movement of cash. Reading them together can reveal questions worth investigating."},{"heading":"Understand working capital","paragraph":"Receivables, inventory and payables can influence the timing of cash conversion. Their movement should be interpreted in the context of a company's business model and operating cycle."},{"heading":"Investigate before concluding","paragraph":"Differences between profit and cash flow may have many explanations. Context and further evidence are essential. This illustrative sample is not analysis of a real company."}]},
+  {"id":5,"title":"Management decisions leave a trail","category":"Strategy","date":"Demo note","readingTime":"6 min read","excerpt":"A starting framework for thinking about capital allocation, incentives and accountability.","theme":"image-five","body":[{"heading":"Capital allocation reveals priorities","paragraph":"How an organisation uses its resources can help explain its strategic priorities. Reinvestment, acquisitions, debt reduction and distributions each carry different considerations."},{"heading":"Look for consistency","paragraph":"Compare what leadership says with decisions made over time. Consider incentives, governance and how performance is measured, while keeping the limits of public information in mind."},{"heading":"Evidence over impressions","paragraph":"A fair assessment should be based on documented actions and relevant context rather than a single quote or event. This is demonstration content awaiting editorial review."}]},
+  {"id":6,"title":"A better way to frame uncertainty","category":"Valuation","date":"Demo note","readingTime":"5 min read","excerpt":"How scenarios and assumptions can make a complex decision easier to discuss.","theme":"image-six","body":[{"heading":"Name the unknowns","paragraph":"Some inputs are observable; others are estimates. Making that distinction explicit helps people understand which parts of a conclusion are most uncertain."},{"heading":"Consider more than one path","paragraph":"Scenario thinking explores how outcomes might differ when key assumptions change. It is not a prediction; it is a way to understand sensitivity and prepare better questions."},{"heading":"Make limitations visible","paragraph":"A useful analysis explains both what it suggests and what it cannot establish. This sample article is illustrative and not financial advice."}]}
 ]
