@@ -13,6 +13,131 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
+  <!-- =====================================================
+     105X INITIAL FINANCIAL ASSEMBLY LOADER
+===================================================== -->
+
+<div class="initial-loader" id="initial-loader" aria-hidden="true">
+
+  <div class="loader-grid"></div>
+
+  <!-- floating financial signals -->
+  <div class="finance-signal signal-1">
+    <i data-lucide="trending-up"></i>
+    <span>+12.4%</span>
+  </div>
+
+  <div class="finance-signal signal-2">
+    <i data-lucide="pie-chart"></i>
+    <span>34.8%</span>
+  </div>
+
+  <div class="finance-signal signal-3">
+    <i data-lucide="bar-chart-3"></i>
+    <span>QUALITY</span>
+  </div>
+
+  <div class="finance-signal signal-4">
+    <i data-lucide="landmark"></i>
+    <span>FUNDAMENTALS</span>
+  </div>
+
+  <div class="finance-signal signal-5">
+    <i data-lucide="percent"></i>
+    <span>ROIC</span>
+  </div>
+
+  <div class="finance-signal signal-6">
+    <i data-lucide="layers-3"></i>
+    <span>VALUE</span>
+  </div>
+
+
+  <!-- central computer / research engine -->
+
+  <div class="loader-computer">
+
+    <div class="computer-glow"></div>
+
+    <div class="computer-screen">
+
+      <div class="screen-top">
+        <span>105X / RESEARCH ENGINE</span>
+        <b>● LIVE DEMO</b>
+      </div>
+
+      <div class="screen-content">
+
+        <div class="screen-chart">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="screen-side">
+
+          <div class="screen-donut"></div>
+
+          <div class="screen-bars">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="screen-bottom">
+        <span>QUALITY SIGNAL</span>
+        <span>VALUATION</span>
+        <span>RISK</span>
+      </div>
+
+    </div>
+
+    <div class="computer-base"></div>
+
+  </div>
+
+
+  <!-- final brand reveal -->
+
+  <div class="loader-brand">
+
+    <div class="loader-brand-mark">
+      <span>105</span><b>X</b>
+    </div>
+
+    <div class="loader-brand-name">
+      ADVISORY
+    </div>
+
+    <div class="loader-brand-line"></div>
+
+    <div class="loader-brand-caption">
+      RESEARCH OVER NOISE
+    </div>
+
+  </div>
+
+
+  <div class="loader-status">
+    <span class="loader-status-dot"></span>
+    BUILDING PERSPECTIVE
+  </div>
+
+</div>
+<div class="page-transition" id="page-transition" aria-hidden="true">
+  <div class="transition-grid"></div>
+  <div class="transition-brand"><span class="transition-mark">105<b>X</b></span><small>ADVISORY / RESEARCH OVER NOISE</small></div>
+  <div class="transition-line"><span></span></div>
+  <div class="transition-status">LOADING PERSPECTIVE <i></i></div>
+</div>
   <div class="topline"><span>INDEPENDENT THINKING. CLEARER DECISIONS.</span><span class="topline-right"><i data-lucide="circle-dot"></i> BUILT AROUND YOUR OBJECTIVES</span></div>
   <header class="site-header" id="header">
     <div class="container nav-wrap">
@@ -22,7 +147,7 @@
       </a>
       <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
       <nav class="nav-links" id="nav-links">
-        <a href="#approach">Our Approach</a><a href="#services">Expertise</a><a href="#founder">Leadership</a><a href="blog.html">Insights</a>
+        <a href="#approach">Our Approach</a><a href="#services">Expertise</a><a href="#founder">Leadership</a><a href="blog.html" data-page-transition>Insights</a>
         <a class="nav-cta" href="#contact">Start a Conversation <i data-lucide="arrow-up-right"></i></a>
       </nav>
     </div>
@@ -34,25 +159,36 @@
         <div class="eyebrow"><span class="eyebrow-line"></span> INDEPENDENT ADVISORY · INDIA</div>
         <h1>See the signal.<br><em>Move with</em> <span class="green-word">conviction.</span></h1>
         <p class="hero-lede">Thoughtful financial research and strategic perspective for people building, investing, and making decisions that matter.</p>
-        <div class="hero-actions"><a class="button button-green" href="#approach">Discover our approach <i data-lucide="arrow-up-right"></i></a><a class="text-link" href="blog.html">Explore insights <i data-lucide="arrow-right"></i></a></div>
+        <div class="hero-actions"><a class="button button-green" href="#approach">Discover our approach <i data-lucide="arrow-up-right"></i></a><a class="text-link" href="blog.html" data-page-transition>Explore insights <i data-lucide="arrow-right"></i></a></div>
         <div class="hero-footnote"><span class="pulse"></span><span>Clarity over noise. Process over prediction.</span></div>
       </div>
       <div class="hero-art reveal">
-        <div class="art-grid"></div>
-        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
         <div class="art-label label-top"><span>105X / PERSPECTIVE</span><i data-lucide="move-up-right"></i></div>
-        <div class="chart-card">
-          <div class="chart-top"><span>THE LONG VIEW</span><span class="chart-live"><i></i> DISCIPLINED BY DESIGN</span></div>
-          <svg class="hero-chart" viewBox="0 0 520 270" role="img" aria-label="Abstract rising line illustration">
-            <defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#57ed70" stop-opacity=".23"/><stop offset="100%" stop-color="#57ed70" stop-opacity="0"/></linearGradient></defs>
-            <g class="chart-lines"><path d="M0 50H520M0 100H520M0 150H520M0 200H520M0 250H520"/><path d="M65 0V270M130 0V270M195 0V270M260 0V270M325 0V270M390 0V270M455 0V270"/></g>
-            <path class="chart-area" d="M0 225 C30 218 40 230 65 204 S105 215 130 179 S170 193 195 153 S230 170 260 124 S295 146 325 103 S355 120 390 75 S430 92 455 45 S490 55 520 18 L520 270 L0 270Z"/>
-            <path class="chart-line" d="M0 225 C30 218 40 230 65 204 S105 215 130 179 S170 193 195 153 S230 170 260 124 S295 146 325 103 S355 120 390 75 S430 92 455 45 S490 55 520 18"/>
-            <circle cx="520" cy="18" r="5" class="chart-dot"/><circle cx="520" cy="18" r="12" class="chart-dot-halo"/>
-          </svg>
-          <div class="chart-bottom"><span>ANALYSIS</span><span>FUNDAMENTALS</span><span>LONG-TERM THINKING</span></div>
+        <div class="orbit-dashboard" aria-label="Decorative rotating illustrative financial research dashboard">
+          <div class="orbit-ring orbit-ring-a"></div>
+          <div class="orbit-ring orbit-ring-b"></div>
+          <div class="orbit-core"><span>105X</span><small>RESEARCH<br>ENGINE</small></div>
+          <div class="orbit-cylinder">
+            <div class="orbit-panel orbit-panel-front">
+              <div class="orbit-panel-head"><span>SECTOR MIX</span><i></i></div>
+              <div class="sector-donut"><span>DEMO<br><b>100%</b></span></div>
+              <div class="sector-legend"><span><i></i> Industrials</span><span><i></i> Financials</span><span><i></i> Consumer</span></div>
+            </div>
+            <div class="orbit-panel orbit-panel-back">
+              <div class="orbit-panel-head"><span>QUALITY SIGNAL</span><i></i></div>
+              <div class="mini-bars"><i style="--bar:42%"></i><i style="--bar:64%"></i><i style="--bar:53%"></i><i style="--bar:82%"></i><i style="--bar:70%"></i><i style="--bar:94%"></i><i style="--bar:78%"></i></div>
+              <div class="mini-panel-foot"><span>CONSISTENCY</span><b>ILLUSTRATIVE</b></div>
+            </div>
+            <div class="orbit-panel orbit-panel-side">
+              <div class="orbit-panel-head"><span>RISK / REWARD</span><i></i></div>
+              <svg viewBox="0 0 180 65" class="mini-line-chart" aria-hidden="true"><path d="M0 52 C20 45 22 54 42 34 S64 45 82 26 S103 36 124 17 S146 30 180 5"/><path class="mini-line-area" d="M0 52 C20 45 22 54 42 34 S64 45 82 26 S103 36 124 17 S146 30 180 5 L180 65H0Z"/></svg>
+              <div class="mini-panel-foot"><span>THESIS MONITOR</span><b>DEMO</b></div>
+            </div>
+          </div>
+          <div class="orbit-data-orbit orbit-data-one"><span>FUNDAMENTALS</span></div>
+          <div class="orbit-data-orbit orbit-data-two"><span>QUALITY</span></div>
         </div>
-        <div class="floating-note"><span class="note-icon"><i data-lucide="scan-search"></i></span><span><b>Look beyond the obvious.</b><small>Context changes everything.</small></span></div>
+        <div class="orbit-caption"><span class="pulse"></span> RESEARCH SIGNALS / ILLUSTRATIVE</div>
         <div class="art-index">FIG. 01 <span>THE 105X MINDSET</span></div>
       </div>
       <div class="hero-side-note">INDEPENDENT<br>BY PRINCIPLE <span>↘</span></div>
@@ -67,9 +203,9 @@
         <div class="intro-copy reveal"><p class="large-copy">In a world full of opinions, information is easy to find. Perspective is harder.</p><p>105X Advisory is being built around a simple belief: meaningful decisions deserve independent thought, a clear process, and the patience to look beyond the immediate noise.</p><a class="underlined-link" href="#services">Get to know our work <i data-lucide="arrow-up-right"></i></a></div>
       </div>
       <div class="principle-grid">
-        <article class="principle-card reveal"><div class="principle-head"><span>01</span><i data-lucide="scan-search"></i></div><h3>Look beneath<br>the surface.</h3><p>Understand the business, the context, and the details that a headline can leave out.</p><div class="card-rule"></div></article>
-        <article class="principle-card reveal"><div class="principle-head"><span>02</span><i data-lucide="scale"></i></div><h3>Think in<br>probabilities.</h3><p>Separate evidence from assumptions. Consider risk, uncertainty, and what could change the thesis.</p><div class="card-rule"></div></article>
-        <article class="principle-card reveal"><div class="principle-head"><span>03</span><i data-lucide="route"></i></div><h3>Stay focused<br>on the long view.</h3><p>Build repeatable frameworks that support consistency rather than reaction.</p><div class="card-rule"></div></article>
+        <article class="principle-card interactive-card reveal" tabindex="0"><div class="principle-head"><span>01</span><i data-lucide="scan-search"></i></div><h3>Look beneath<br>the surface.</h3><p>Understand the business, the context, and the details that a headline can leave out.</p><div class="card-rule"></div></article>
+        <article class="principle-card interactive-card reveal" tabindex="0"><div class="principle-head"><span>02</span><i data-lucide="scale"></i></div><h3>Think in<br>probabilities.</h3><p>Separate evidence from assumptions. Consider risk, uncertainty, and what could change the thesis.</p><div class="card-rule"></div></article>
+        <article class="principle-card interactive-card reveal" tabindex="0"><div class="principle-head"><span>03</span><i data-lucide="route"></i></div><h3>Stay focused<br>on the long view.</h3><p>Build repeatable frameworks that support consistency rather than reaction.</p><div class="card-rule"></div></article>
       </div>
     </section>
 
@@ -78,10 +214,10 @@
         <div class="section-kicker reveal"><span>02 / AREAS OF FOCUS</span><span class="kicker-line"></span><span>OUR EXPERTISE</span></div>
         <div class="services-heading"><h2 class="reveal">Insight for the<br><em>next move.</em></h2><p class="reveal">A considered view of complex decisions. Explore the areas that may shape our work together.</p></div>
         <div class="service-list">
-          <a class="service-row reveal" href="#contact"><span class="service-number">01</span><div class="service-title"><h3>Financial Research</h3><p>Business fundamentals, financial statements and industry context.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
-          <a class="service-row reveal" href="#contact"><span class="service-number">02</span><div class="service-title"><h3>Equity & Valuation Insights</h3><p>Frameworks to examine business quality, value and risk.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
-          <a class="service-row reveal" href="#contact"><span class="service-number">03</span><div class="service-title"><h3>Strategy & Business Perspective</h3><p>Structured thinking for decisions, opportunities and trade-offs.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
-          <a class="service-row reveal" href="#contact"><span class="service-number">04</span><div class="service-title"><h3>PPP, Finance & Bid Documents</h3><p>Placeholder for the specific advisory capabilities listed on the 105X visiting card.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
+          <a class="service-row interactive-row reveal" href="#contact"><span class="service-number">01</span><div class="service-title"><h3>Financial Research</h3><p>Business fundamentals, financial statements and industry context.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
+          <a class="service-row interactive-row reveal" href="#contact"><span class="service-number">02</span><div class="service-title"><h3>Equity & Valuation Insights</h3><p>Frameworks to examine business quality, value and risk.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
+          <a class="service-row interactive-row reveal" href="#contact"><span class="service-number">03</span><div class="service-title"><h3>Strategy & Business Perspective</h3><p>Structured thinking for decisions, opportunities and trade-offs.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
+          <a class="service-row interactive-row reveal" href="#contact"><span class="service-number">04</span><div class="service-title"><h3>PPP, Finance & Bid Documents</h3><p>Placeholder for the specific advisory capabilities listed on the 105X visiting card.</p></div><span class="service-icon"><i data-lucide="arrow-up-right"></i></span></a>
         </div>
         <p class="small-disclaimer">* Demonstration copy: service scope and descriptions will be confirmed by the 105X Advisory team.</p>
       </div>
@@ -91,11 +227,11 @@
       <div class="container section">
         <div class="section-kicker reveal"><span>03 / THE PROCESS</span><span class="kicker-line"></span><span>FROM INFORMATION TO INSIGHT</span></div>
         <h2 class="method-title reveal">A process that makes<br><em>room for clarity.</em></h2>
-        <div class="method-steps">
-          <div class="method-step reveal"><span>01</span><i data-lucide="files"></i><h3>Understand</h3><p>Start with source material, the business, and the questions that matter.</p></div>
-          <div class="method-step reveal"><span>02</span><i data-lucide="search-check"></i><h3>Investigate</h3><p>Connect financials, industry dynamics, management and relevant risks.</p></div>
-          <div class="method-step reveal"><span>03</span><i data-lucide="git-compare"></i><h3>Challenge</h3><p>Test assumptions, compare scenarios and look for what may be missing.</p></div>
-          <div class="method-step reveal"><span>04</span><i data-lucide="lightbulb"></i><h3>Communicate</h3><p>Turn analysis into a clear, structured perspective and next questions.</p></div>
+        <div class="method-steps" id="method-timeline">
+          <div class="method-step reveal" data-step="1"><span>01</span><i data-lucide="files"></i><h3>Understand</h3><p>Start with source material, the business, and the questions that matter.</p></div>
+          <div class="method-step reveal" data-step="2"><span>02</span><i data-lucide="search-check"></i><h3>Investigate</h3><p>Connect financials, industry dynamics, management and relevant risks.</p></div>
+          <div class="method-step reveal" data-step="3"><span>03</span><i data-lucide="git-compare"></i><h3>Challenge</h3><p>Test assumptions, compare scenarios and look for what may be missing.</p></div>
+          <div class="method-step reveal" data-step="4"><span>04</span><i data-lucide="lightbulb"></i><h3>Communicate</h3><p>Turn analysis into a clear, structured perspective and next questions.</p></div>
         </div>
       </div>
     </section>
@@ -108,11 +244,11 @@
     <section class="insights-section">
       <div class="container section">
         <div class="section-kicker reveal"><span>05 / THE JOURNAL</span><span class="kicker-line"></span><span>THOUGHTS WORTH EXPLORING</span></div>
-        <div class="insights-heading"><div><h2 class="reveal">Ideas beyond<br><em>the headlines.</em></h2><p class="reveal">Notes on business quality, valuation and the discipline of thinking long term.</p></div><a href="blog.html" class="button button-outline reveal">All insights <i data-lucide="arrow-up-right"></i></a></div>
+        <div class="insights-heading"><div><h2 class="reveal">Ideas beyond<br><em>the headlines.</em></h2><p class="reveal">Notes on business quality, valuation and the discipline of thinking long term.</p></div><a href="blog.html" data-page-transition class="button button-outline reveal">All insights <i data-lucide="arrow-up-right"></i></a></div>
         <div class="featured-articles">
-          <a class="article-card article-featured reveal" href="blog-details.html?id=1"><div class="article-image image-one"><span>FIELD NOTE / 001</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>FINANCIAL RESEARCH</span><span>8 MIN READ</span></div><h3>Reading a business beyond its headline numbers</h3><p>A practical starting point for looking at financial statements with context and curiosity.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
-          <a class="article-card reveal" href="blog-details.html?id=2"><div class="article-image image-two"><span>FIELD NOTE / 002</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>VALUATION</span><span>6 MIN READ</span></div><h3>Value is more than a single number</h3><p>Why assumptions, uncertainty and business quality belong in the same conversation.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
-          <a class="article-card reveal" href="blog-details.html?id=3"><div class="article-image image-three"><span>FIELD NOTE / 003</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>DECISION MAKING</span><span>5 MIN READ</span></div><h3>The value of having a repeatable process</h3><p>A framework for slowing down, testing assumptions and documenting a point of view.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
+          <a class="article-card article-featured reveal blog-interactive" href="blog-details.html?id=1" data-page-transition data-page-transition><div class="article-image image-one"><span>FIELD NOTE / 001</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>FINANCIAL RESEARCH</span><span>8 MIN READ</span></div><h3>Reading a business beyond its headline numbers</h3><p>A practical starting point for looking at financial statements with context and curiosity.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
+          <a class="article-card reveal blog-interactive" href="blog-details.html?id=2" data-page-transition data-page-transition><div class="article-image image-two"><span>FIELD NOTE / 002</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>VALUATION</span><span>6 MIN READ</span></div><h3>Value is more than a single number</h3><p>Why assumptions, uncertainty and business quality belong in the same conversation.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
+          <a class="article-card reveal blog-interactive" href="blog-details.html?id=3" data-page-transition data-page-transition><div class="article-image image-three"><span>FIELD NOTE / 003</span><i data-lucide="arrow-up-right"></i></div><div class="article-meta"><span>DECISION MAKING</span><span>5 MIN READ</span></div><h3>The value of having a repeatable process</h3><p>A framework for slowing down, testing assumptions and documenting a point of view.</p><span class="article-link">Read the note <i data-lucide="arrow-right"></i></span></a>
         </div>
       </div>
     </section>
